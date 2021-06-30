@@ -18,7 +18,7 @@
 //    console.log(n);
 //  }
 
-const mhs = ['Wahyudi', 'David', 'Eko'];
+// const mhs = ['Wahyudi', 'David', 'Eko'];
 // mhs.forEach((m, i) => {
 //   console.log(`${m} adalah mahasiswa ke${i}`);
 // });
@@ -28,21 +28,35 @@ const mhs = ['Wahyudi', 'David', 'Eko'];
 // }
 
 // Nodelist
-const liNama = document.querySelectorAll('.nama');
+// const liNama = document.querySelectorAll('.nama');
 // liNama.forEach(n => console.log(n.textContent););
 // for (const n of liNama) {
 //   console.log(n.innerHTML);
 // }
 
 // Arguments
-function jumlahkanAngka(){
+// function jumlahkanAngka(){
   // return arguments.reduce((1, i) => a+i);
   // arguments.forEach(a => jumlah += a);
-  let jumlah = 0;
-  for (a of arguments) {
-    jumlah += a;
-  }
-  return jumlah;
+//   let jumlah = 0;
+//   for (a of arguments) {
+//     jumlah += a;
+//   }
+//   return jumlah;
+// }
+
+// console.log(jumlahkanAngka(1,2,3,4,5));
+
+// Implement For...in looping
+// penggunaan for of tidak bisa digunakan karena
+// object mhs buka object iterable
+
+const mhs = {
+  nama: 'Wahyudi',
+  umur: 24,
+  email: 'whydandrian@gmail.com'
 }
 
-console.log(jumlahkanAngka(1,2,3,4,5));
+for (m in mhs) {
+  console.log(mhs[m]);
+}
