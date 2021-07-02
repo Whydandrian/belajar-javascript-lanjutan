@@ -67,3 +67,17 @@
 //   mhs.forEach(m => console.log(results));
   
 // }, () => {});
+
+// JQuery
+// console.log('mulai');
+
+// $.ajax({
+//   url: 'mahasiswa.json',
+//   success: (mhs) => {
+//     mhs.forEach(m => console.log(m.nama));
+//   },
+//   error: () => {
+//     console.log(e.responseText);
+//   }
+// });
+// console.log('selesai');
