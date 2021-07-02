@@ -1,0 +1,23 @@
+[
+  {
+    "nama": "Wahyudi Andrian",
+    "nrp": "20172010",
+    "email": "whydandrian@gmail.com",
+    "jurusan": "Manajemen Informatika",
+    "idDosenWali": 1
+  },
+  {
+    "nama": "Ahmad Jamaluddin",
+    "nrp": "20170912",
+    "email": "jamall@gmail.com",
+    "jurusan": "Manajemen Informatika",
+    "idDosenWali": 2
+  },
+  {
+    "nama": "Sinta Purnamasari",
+    "nrp": "20170102",
+    "email": "sinta@gmail.com",
+    "jurusan": "Manajemen Informatika",
+    "idDosenWali": 2
+  }
+]
